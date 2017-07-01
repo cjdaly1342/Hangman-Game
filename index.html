@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+
+	<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=New+Rocker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body onload="startUp()">
+
+<div class="container">
+	<div class="col-md-12">
+		<h1>Hangman!!  Metal Edition!!!</h1>
+	</div>
+</div>
+<div class="wrapper">
+	<h2>The answer is a metal band!!</h2>
+	
+	<p>You have to click the Guess button each time you want to submit a guess, and the spaces in multi word answers count also!</p>
+	
+	<br></br>
+	
+	<input id="letter" type="text">
+	
+	<input type="button" value="Guess" onClick="Letter()">
+	
+	<br></br>
+
+	<p id="answer"></p>
+
+	<p id="count"></p>
+	
+	<div id="hold">
+
+	<p id="lives">Lives Remaining - </p>
+	
+	<p id="clue">Hint - </p>
+	
+	<br></br>
+	
+	<input type="button" value="Try Again!" onClick="window.location.reload()">
+	
+	<br></br>
+	
+	<button id="hint">Hint</button>
+</div>
+
+</body>
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+</html>

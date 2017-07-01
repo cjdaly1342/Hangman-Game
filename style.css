@@ -1,0 +1,26 @@
+body {
+	background-image: url("images/Brushed-Metal.jpg");
+}
+
+.container {
+	text-align: center;
+	color: #FA041B;
+	background-color: #020000;
+	padding:30px;
+	margin-bottom: 20px;
+	border: 20px;
+	border-color: #020000;
+}
+
+h1 {
+	font-family: "Creepster";
+	font-size: 50px;
+	color: #E70819;
+}
+
+.wrapper {
+	text-align: center;
+	font-family: "New Rocker";
+	color: #99103D;
+	font-size: 28px;
+}
